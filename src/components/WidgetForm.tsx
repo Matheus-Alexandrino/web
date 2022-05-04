@@ -42,7 +42,7 @@ const feedbackTypes = {
 type FeedbackType = keyof typeof feedbackTypes;
 
 export function WidgetForm() {
-    const [feedbackType, setFeedbackType] = useState<FeedbackType | (null)
+    const [feedbackType, setFeedbackType] = useState<FeedbackType | null>(null)
 
 
     return (
