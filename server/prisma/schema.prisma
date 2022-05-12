@@ -9,9 +9,9 @@ datasource db {
 
 model Feedback {
 
-  id    String @id
+  id    String @id @default(uuid()) //Universal Unique ID
 
-  type  String
+  type       String
   comment String
   screenshot String?
   
