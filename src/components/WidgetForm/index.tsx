@@ -1,7 +1,6 @@
 import { CloseButton } from "../CloseButton";
 import { useState } from "react";
 import bugImageUrl from '../../assets/bug.svg';
-import siteImageUrl from '../../assets/sitevertti.jpeg';
 import ideaImageUrl from '../../assets/idea.svg';
 import thoughtImageUrl from '../../assets/thought.svg';
 import { FeedbackTypeStep } from "./Steps/FeedBackTypeStep";
@@ -64,7 +63,7 @@ export function WidgetForm() {
             )}
 
             <footer className="text-xs text-neutral-400">
-                Desenvolvido por <a className="underline underline-offset-2" href="https://github.com/Matheus-Alexandrino">Matheus💻Alexandrino</a>
+                Desenvolvido por <a className="underline underline-offset-2" href="https://github.com/Matheus-Alexandrino">Matheus⌨Alexandrino</a>
             </footer>
         </div>
     );
