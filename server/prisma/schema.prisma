@@ -8,5 +8,10 @@ datasource db {
 }
 
 model Feedback {
-  @@map(""feedbacks)
+
+  id String
+
+  type String
+  
+  @@map("feedbacks")
 }
